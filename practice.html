@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <center>
+            <table border="2" width="40%" height="10px">
+                <tr>
+                    <td>
+                        <center>
+                            <h1><b>College Registration Form</b></h1>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <br><br>
+        <label for="parent_firstname">Parent First Name:</label>
+        <input type="text" id="parent_firstname" name="parent_firstname" placeholder="Parent First Name" size="40">
+        <label for="parent_lastname">Parent Last Name:</label>
+        <input type="text" id="parent_lastname" name="parent_lastname" placeholder="Parent Last Name" size="40">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" size="80">
+        <br><br>
+
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone" name="phone" placeholder="Phone Number" size="80">
+        <br><br>
+
+        <label for="student_firstname">Student First Name:</label>
+        <input type="text" id="student_firstname" name="student_firstname" placeholder="Student First Name" size="40">
+        <label for="student_lastname">Student Last Name:</label>
+        <input type="text" id="student_lastname" name="student_lastname" placeholder="Student Last Name" size="40">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <h2>Choose Subjects</h2>
+        <input type="checkbox" id="maths" name="subject" value="maths">
+        <label for="maths">Mathematics</label><br>
+        <input type="checkbox" id="physics" name="subject" value="physics">
+        <label for="physics">Physics</label><br>
+        <input type="checkbox" id="chemistry" name="subject" value="chemistry">
+        <label for="chemistry">Chemistry</label><br>
+        <br>
+
+        <h3>Choose Programming Subject</h3>
+        <input type="radio" id="java" name="skill" value="java">
+        <label for="java">Java</label><br>
+        <input type="radio" id="python" name="skill" value="python">
+        <label for="python">Python</label><br>
+        <input type="radio" id="mongodb" name="skill" value="mongodb">
+        <label for="mongodb">MongoDB</label><br>
+        <br>
+
+        <label for="file">Choose File</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
